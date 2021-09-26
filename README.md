@@ -12,10 +12,8 @@ Project for Code Init() : Team TARS
 Requirements for invalid hyperlink flagging:
 PYTHON
 FLASK
-HTML
-CSS
-JS
-BOOTSTRAP
+beautifulsoup
+REQUESTS
 
 FOR MALICOUS LINK FLAGGING-
 PYTHON
