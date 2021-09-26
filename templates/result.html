@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+   <body>
+       <h1>Valid links</h1>
+      
+         {% for value in valid %}
+            <ul>
+               <li> <a href="{{ value }}">{{ value }}</a> </li>
+            </ul>
+         {% endfor %}
+    
+      <br>
+      <h1>Broken Links</h1>
+      
+        {% for valuea in broke %}
+           <ul>
+              <li> <a href="{{ valuea }}">{{ value }}</a> </li>
+           </ul>
+        {% endfor %}
+        
+    
+   </body>
+</html>
